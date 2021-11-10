@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+ font-family: 'poppins';
+}
+/*common*/
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{ 
+    word-spacing: 4px;
+   letter-spacing: 1px;
+   font-size: 18px;
+}
+/*navbar*/
+b{
+    font-size:35px;
+}
+
+.fa-facebook{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-whatsapp{ 
+    color: green;
+}
+.fa-instagram{
+    color:#8a3ab9;
+}
+#navbar{
+    z-index: 3;
+}
+.navbar-brand img{
+
+    border-radius: 40px;
+}
+#navbar .nav-link{
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    
+}
+#navbar .nav-link:hover{
+    border-bottom: 3px solid blue;
+}
+/*carousel*/
+#slide .carousel-item img{
+    height: 260px;
+}
+/* about*/
+ #About img{
+     width: 600px;
+    border-radius: 10px;
+
+}
+/*services*/
+h4{
+    font-size: 50px;
+
+}
+ .image{
+   overflow: hidden;
+}
+ .card img{ transition: 1s;}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+h5{
+    font-size: 50px;
+}
+/*footer*/
+#footer .nav-link{
+    padding-bottom: 2px;
+}
+#footer .nav-link:hover{
+    color: black !important;
+}
